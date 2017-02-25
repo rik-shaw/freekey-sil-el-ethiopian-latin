@@ -28,14 +28,16 @@ begin
 end;
 
 [Setup]
-OutputBaseFilename=FreeKey SIL EL - Ethiopian Latin Keyboard
-AppName=SIL EL - Ethiopian Latin
-AppVerName=SIL EL - Ethiopian Latin Version 1.1
+OutputBaseFilename=FreeKey SIL EL Keyboard v-1-2
+AppName=SIL EL - Ethiopian Latin Keyboard
+AppVersion=1.2
+AppVerName=SIL EL - Ethiopian Latin Keyboard 1.2
 DefaultDirName={pf}\FreeKey
 DefaultGroupName=FreeKey
 UninstallDisplayName=FreeKey SIL EL - Ethiopian Latin Keyboard
 AppPublisher=SIL Ethiopia
 AppPublisherURL=http://www.silethiopia.org/
+AppCopyright=(c) SIL Ethiopia
 DirExistsWarning=No
 
 [Files]
