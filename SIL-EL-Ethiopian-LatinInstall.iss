@@ -12,7 +12,7 @@ procedure InitializeVariables;
 begin
   SourceName  := 'SIL-EL-Ethiopian-Latin';                // Folder name where the source code should be installed into   (only last subfolder)
   KeyingDoc   := 'SIL-EL-Ethiopian-LatinKeyboardMap.pdf'; // Use the name of keying document
-  InstallFont := True;                                      // Should fonts be installed with the program?
+  InstallFont := True;                                    // Should fonts be installed with the program?
   LicenseText := 'The MIT License (MIT)' + #13#10 + #13#10 +
     'Permission is hereby granted, free of charge, to any person obtaining a copy of this software ' +
     'and associated documentation files (the "Software"), to deal in the Software without ' +
@@ -28,10 +28,10 @@ begin
 end;
 
 [Setup]
-OutputBaseFilename=FreeKey SIL EL Keyboard v-1-2
-AppName=SIL EL - Ethiopian Latin Keyboard
-AppVersion=1.2
-AppVerName=SIL EL - Ethiopian Latin Keyboard 1.2
+OutputBaseFilename=FreeKey SIL EL - Ethiopian Latin Keyboard v-1-4-0
+AppName=SIL EL - Ethiopian Latin
+AppVersion=1.4.0
+AppVerName=SIL EL - Ethiopian Latin Version 1.4.0
 DefaultDirName={pf}\FreeKey
 DefaultGroupName=FreeKey
 UninstallDisplayName=FreeKey SIL EL - Ethiopian Latin Keyboard
@@ -378,3 +378,4 @@ begin
   AboutButton.OnClick := @AboutButtonOnClick;
   AboutButton.Parent := ParentForm;
 end;
+
